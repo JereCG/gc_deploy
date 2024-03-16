@@ -8,7 +8,7 @@ import handlebars from 'vite-plugin-handlebars';
 import handlerBarsContext from './indexPage.js';
 
 export default defineConfig({
-    base: "/galeriabundled/",
+    base: "/gc_deploy/",
     appType: 'mpa',
     build: {
         rollupOptions: {
