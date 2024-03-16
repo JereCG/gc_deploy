@@ -1,0 +1,47 @@
+header {
+    background-color: @primary-background-color;
+    color: @primary-text-color;
+
+    h1 {
+        margin: 0px;
+        padding: 0.5rem;
+        font-size: 1.25rem;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 20%;
+
+            @media (min-width: 557px) {
+                width: 12%;
+            }
+
+            @media (min-width: 1024px) {
+                width: 9%;
+            }
+        }
+
+        span {
+            margin-left: 1rem;
+
+            @media (min-width: 557px) {
+                margin-left: 2rem;
+                font-size: 1.5rem;
+            }
+
+            @media (min-width: 1024px) {
+                margin: 0px;
+                margin-bottom: 1rem;
+                font-size: 5rem;
+            }
+        }
+
+        @media (min-width: 557px) {
+            padding: 0%;
+        }
+
+        @media (min-width: 1024px) {
+            flex-direction: column;
+        }
+    }
+}
